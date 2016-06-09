@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{herlocker1999algorithmic}
+J.~L. Herlocker, J.~A. Konstan, A.~Borchers, and J.~Riedl.
+\newblock An algorithmic framework for performing collaborative filtering.
+\newblock In {\em Proceedings of the 22nd annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  230--237. ACM, 1999.
+
+\bibitem{tag}
+B.~S. Kim, H.~Kim, J.~Lee, and J.-H. Lee.
+\newblock Improving a recommender system by collective matrix factorization
+  with tag information.
+\newblock In {\em Soft Computing and Intelligent Systems (SCIS), 2014 Joint 7th
+  International Conference on and Advanced Intelligent Systems (ISIS), 15th
+  International Symposium on}, pages 980--984, Dec 2014.
+
+\bibitem{koren2009matrix}
+Y.~Koren, R.~Bell, and C.~Volinsky.
+\newblock Matrix factorization techniques for recommender systems.
+\newblock {\em Computer}, (8):30--37, 2009.
+
+\bibitem{lemire2005slope}
+D.~Lemire and A.~Maclachlan.
+\newblock Slope one predictors for online rating-based collaborative filtering.
+\newblock In {\em SDM}, volume~5, pages 1--5. SIAM, 2005.
+
+\bibitem{sarwar2001item}
+B.~Sarwar, G.~Karypis, J.~Konstan, and J.~Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pages 285--295. ACM, 2001.
+
+\bibitem{schafer2007collaborative}
+J.~B. Schafer, D.~Frankowski, J.~Herlocker, and S.~Sen.
+\newblock Collaborative filtering recommender systems.
+\newblock In {\em The adaptive web}, pages 291--324. Springer, 2007.
+
+\end{thebibliography}

@@ -1,0 +1,20 @@
+\frametitle{Proposed Method}
+\begin{algorithm}
+\caption{Gradient Descent Method}
+\label{alg:gdm}
+\begin{algorithmic}[H]
+\STATE Initialize $X$, $Y$, $Z$ with random number in range (0,1)
+\STATE $t = 0$
+\WHILE{$t < max\_iteration$}
+\STATE Get gradients $\nabla_XER$, $\nabla_YER$ and $\nabla_ZER$.
+\STATE $\gamma=1$
+\WHILE{$(ER(X_t-\gamma\nabla_{X_t},Y_t-\gamma\nabla_{Y_t},Z_t-\gamma\nabla_{Z_t})>ER(X_t,Y_t,Z_t))$}
+\STATE $\gamma = \gamma/2$
+\ENDWHILE
+\STATE $X_{t+1} = X_{t}-\gamma\nabla_{X_t}$
+\STATE $Y_{t+1} = Y_{t}-\gamma\nabla_{Y_t}$
+\STATE $Z_{t+1} = Z_{t}-\gamma\nabla_{Z_t}$
+\STATE $t = t+1$
+\ENDWHILE
+\end{algorithmic}
+\end{algorithm}
